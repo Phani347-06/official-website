@@ -14,7 +14,7 @@ export const siteData = {
       title: "IG of Police, Andhra Pradesh",
       talk: "The Hidden Fabric of Reality",
       bio: "Legal consultant - Criminal Law, IPR, Data privacy &Fintech MHA-recognized Resource Person on New Criminal Laws speaker at NSG, CBI Academy, Nalsar, UoH, ASCI National Security Expert. Published in The Hindu and TOI",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=600",
+      image: "https://static.vecteezy.com/system/resources/previews/008/959/213/non_2x/red-neon-question-mark-on-a-black-background-vector.jpg",
       social: { twitter: "#", linkedin: "#" },
     },
     {
@@ -23,7 +23,7 @@ export const siteData = {
       title: "AI Ethics Specialist & Futurist",
       talk: "The Invisible Algorithms of Control",
       bio: "Marcus Vane advises global tech firms on the ethical implications of autonomous systems that guide our daily decisions without us knowing.",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=600",
+      image: "https://static.vecteezy.com/system/resources/previews/008/959/213/non_2x/red-neon-question-mark-on-a-black-background-vector.jpg",
       social: { twitter: "#", linkedin: "#" },
     },
     {
@@ -32,7 +32,7 @@ export const siteData = {
       title: "Bio-Artist & Environmentalist",
       talk: "Mycelium: The Earth's Silent Nervous System",
       bio: "Aisha creates immersive art installations using living fungal networks, highlighting the intricate connectivity of the natural world.",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=600",
+      image: "https://static.vecteezy.com/system/resources/previews/008/959/213/non_2x/red-neon-question-mark-on-a-black-background-vector.jpg",
       social: { twitter: "#", linkedin: "#" },
     },
     {
