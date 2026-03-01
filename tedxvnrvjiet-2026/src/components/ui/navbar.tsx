@@ -49,13 +49,14 @@ export const Navbar = () => {
               {link.name}
             </motion.a>
           ))}
-          <motion.button
+          <motion.a
+            href="#speakers"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="px-6 py-2 bg-ted-red text-white text-sm font-bold rounded-full hover:bg-red-700 transition-colors shadow-[0_0_20px_rgba(230,43,30,0.4)]"
+            className="px-6 py-2 bg-ted-red text-white text-sm font-bold rounded-full hover:bg-red-700 transition-colors shadow-[0_0_20px_rgba(230,43,30,0.4)] cursor-pointer"
           >
             REGISTER
-          </motion.button>
+          </motion.a>
         </div>
 
         {/* Mobile Toggle */}
@@ -84,9 +85,13 @@ export const Navbar = () => {
                   {link.name}
                 </a>
               ))}
-              <button className="w-full py-4 bg-ted-red text-white text-xl font-bold rounded-xl shadow-[0_0_30px_rgba(230,43,30,0.3)]">
+              <a
+                href="#speakers"
+                onClick={() => setIsOpen(false)}
+                className="w-full py-4 bg-ted-red text-white text-xl font-bold rounded-xl shadow-[0_0_30px_rgba(230,43,30,0.3)] text-center block"
+              >
                 REGISTER NOW
-              </button>
+              </a>
             </div>
           </motion.div>
         )}

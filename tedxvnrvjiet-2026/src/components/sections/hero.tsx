@@ -23,7 +23,7 @@ export const Hero = () => {
       transition: {
         delay: 0.5 + i * 0.1,
         duration: 0.8,
-        ease: [0.215, 0.61, 0.355, 1],
+        ease: [0.215, 0.61, 0.355, 1] as [number, number, number, number],
       },
     }),
   };
@@ -89,15 +89,16 @@ export const Hero = () => {
           variants={textVariants}
           className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-8 items-center"
         >
-          <motion.button
+          <motion.a
+            href="#speakers"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="px-10 py-4 bg-ted-red text-white text-lg font-bold rounded-xl shadow-[0_0_30px_rgba(230,43,30,0.4)] relative group overflow-hidden"
+            className="px-10 py-4 bg-ted-red text-white text-lg font-bold rounded-xl shadow-[0_0_30px_rgba(230,43,30,0.4)] relative group overflow-hidden cursor-pointer"
           >
             <span className="relative z-10">GET TICKETS</span>
             <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity" />
-          </motion.button>
-          
+          </motion.a>
+
           <div className="flex flex-col items-start sm:items-center">
             <span className="text-sm font-bold tracking-widest text-white/40 uppercase">March 12, 2026</span>
             <span className="text-xs tracking-widest text-ted-red font-bold">VNRVJIET KS Auditorium</span>
