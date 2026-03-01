@@ -1,3 +1,5 @@
+
+
 export const siteData = {
   event: {
     name: "TEDxVNRVJIET 2026",
@@ -19,54 +21,138 @@ export const siteData = {
     },
     {
       id: 2,
-      name: "Marcus Vane",
-      title: "AI Ethics Specialist & Futurist",
-      talk: "The Invisible Algorithms of Control",
-      bio: "Marcus Vane advises global tech firms on the ethical implications of autonomous systems that guide our daily decisions without us knowing.",
+      name: "Revealing Soon",
+      //name: "Sriram Chemuturi"
+      title: "On the way",
+      //title: "",
+      talk: "Dropping soon..",
+      //talk: "",
+      bio: "Coming Soon.....",
+      //bio: "Head of Research & Design at Mantra4Change,Engineer (ex-Infosys) turned educatorFormer School Leader at Akanksha Foundation & Vikasa Vidya Vanam Ex-Teach For India Program Manager, Pune Municipal School teacher Champion of alternative education models",
       image: "https://static.vecteezy.com/system/resources/previews/008/959/213/non_2x/red-neon-question-mark-on-a-black-background-vector.jpg",
+      //image: "https://media.licdn.com/dms/image/v2/C4E03AQFuaXFu_tUB-w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1623303127428?e=1773878400&v=beta&t=3EY8huJV6tWfhyzLKTkf-CSuiGsxY_0jPikI87AE7_U",
       social: { twitter: "#", linkedin: "#" },
+      //social: { twitter: "#", linkedin: "https://www.linkedin.com/in/sriram-chemuturi/?originalSubdomain=in" },
     },
     {
       id: 3,
-      name: "Aisha Karim",
-      title: "Bio-Artist & Environmentalist",
-      talk: "Mycelium: The Earth's Silent Nervous System",
-      bio: "Aisha creates immersive art installations using living fungal networks, highlighting the intricate connectivity of the natural world.",
+      name: "Revealing Soon",
+      //name: "Bala Prasad Peddigari",
+      title: "On the way",
+      //title: "Chief Innovation Officer, TCS",
+      talk: "Dropping soon..",
+      //talk: "",
+      bio: "Coming soon...",
+      //bio: "27+ years at TCS Technology leader in Gen Al, Multi-Cloud, Metaverse, 5G & Cyber Security Chair - FTCCI ICT & Startup Committee Vice Chair - IEEE Hyderabad Secretary - Internet Society India Hyderabad",
       image: "https://static.vecteezy.com/system/resources/previews/008/959/213/non_2x/red-neon-question-mark-on-a-black-background-vector.jpg",
+      //image: "https://media.licdn.com/dms/image/v2/C5103AQGcIj9ZeqdUag/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1535396126130?e=1773878400&v=beta&t=HutirDuNugi8zww9HhNkY6zukMZteFbrygmzT1HdoSE",
       social: { twitter: "#", linkedin: "#" },
+      //social: { twitter: "#", linkedin: "https://www.linkedin.com/in/balasparks/?originalSubdomain=in" },
     },
     {
       id: 4,
-      name: "Julian Brooks",
-      title: "Social Architect",
-      talk: "The Gravity of Collective Belief",
-      bio: "Julian studies how ideas gain mass and momentum, creating invisible gravity wells that pull entire civilizations towards a common future.",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=600",
+      name: "Revealing Soon",
+      //name: "Dr. A.V. Gurava Reddy",
+      title: "On the way",
+      //title: "| Chairman & MD, KIMS-Sunshine Hospitals",
+      talk: "Dropping soon..",
+      //talk: "",
+      bio: "Coming Soon...",
+      //bio: "33+ years experience | 60,000+ joint replacement surgeries | 4,000+ annual surgeries (highest in South Asia) I FRCS (London, Edinburgh, Glasgow) | 10+ years UK experience | Founder - Indian Society of Hip & Knee Surgeons I Faculty - Royal College of Surgeons, Edinburgh | Robotic joint replacement pioneer in Telangana",
+      image: "https://static.vecteezy.com/system/resources/previews/008/959/213/non_2x/red-neon-question-mark-on-a-black-background-vector.jpg",
+      //image: "https://assets.kimshospitals.com/images/doctors/dr-av-gurava-reddy-orthopaedics-trauma_1682760804.jpg",
       social: { twitter: "#", linkedin: "#" },
+      //social: { twitter: "#", linkedin: "https://assets.kimshospitals.com/images/doctors/dr-av-gurava-reddy-orthopaedics-trauma_1682760804.jpg" },
+    },
+
+    {
+      id: 5,
+      name: "Revealing Soon",
+      //name: "Samyuktha",
+      title: "On the way",
+      //title: "Actress",
+      talk: "Dropping soon..",
+      //talk: "",
+      bio: "Coming Soon...",
+      //bio: "Samyuktha is an Indian film actress who appears in Malayalam films. She made her debut in 2015 with the Malayalam film Popcorn. She was famous for her role in 2018 film Theevandi. Samyuktha first performed into the world of cinema in 2016, with the Mollywood comedy Popcorn. Samyuktha's confident performance despite being a debutante was well-received.",
+      image: "https://static.vecteezy.com/system/resources/previews/008/959/213/non_2x/red-neon-question-mark-on-a-black-background-vector.jpg",
+      //image: "https://m.media-amazon.com/images/M/MV5BZmViYmMwNjYtYjc0ZS00M2Q4LWFlOTctNDkwZWNjMDM2MTI2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      social: { twitter: "#", linkedin: "#" },
+      //social: { twitter: "#", Instagram: "https://www.instagram.com/iamsamyuktha_/?hl=en" },
     }
+
   ],
   pastEvents: [
     {
-      year: 2024,
-      theme: "Unbound",
-      description: "Breaking the chains of convention to explore the limitless potential of human creativity.",
-      highlights: ["3000+ Attendees", "12 Global Speakers", "2 Million+ YouTube Views"],
-      image: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=800"
+      year: "28th October 2024",
+      slug: "2024",
+      theme: "Unfold the Untold",
+      description: "Join us as we dig into the authentic journey of life, embracing obstacles and celebrating resilience.",
+      highlights: ["300+ Attendees", "12 Speakers", "Interactive Experience"],
+      image: "https://media.licdn.com/dms/image/v2/D5622AQGxB4dicNHQdg/feedshare-shrink_800/feedshare-shrink_800/0/1729999026825?e=2147483647&v=beta&t=uS7J8r-JEgN550xHwmZSGxAtV9R6zK4TubMYbHWdakQ",
+      speakers: [
+        { name: "Ms Vanitha Datla", title: "Vice Chairperson & MD, Elico. ltd", talk: "Leadership & women", image: "https://i.ytimg.com/vi/1aXi7N56TS0/maxresdefault.jpg" },
+        { name: "Mr Shrenik Shah", title: "Patient Ambassador, Indian Cancer Society", talk: "The Power of Voice", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWTGSRvh69QOuZt6BnP1jYhtX3Ro-00UDqwg&s" },
+        { name: "Mr B V R Mohan Reddy", title: "Padma Shri Awardee", talk: "Embracing Technological Change for Tomorrow's Triumph", image: "https://i.ytimg.com/vi/jUa_OVsEJmw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDRu4-TyLypS-GXIXjMq-Dux1cCiw" },
+        { name: "Mr Sunith Reddy", title: "Co-Founder, Beforest Lifestyle Solutions", talk: "Starting up with Sustainable Innovation", image: "https://i.ytimg.com/vi/mSeu9il6x-A/maxresdefault.jpg" },
+        { name: "Mr Mimicry Srinivas", title: "Mimicry Artist", talk: "Finding My Calling in My Voice", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDQXQz0r6xI_rqTmKgIhJ79vGY8vqth0y1w&s" },
+        { name: "Mr Neehar Bisabathini", title: "Founder and CEO, Churrolto", talk: "Entrepreneurship: A 'Sweet' Journey", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Ni0AyIpW1PyrACB3Ta6xLjVGio3xCX2HUQ&s" },
+        { name: "Mr Durgaprasad Kode", title: "IPS Officer", talk: "Wherever you're, make the best of It!", image: "https://i.ytimg.com/vi/m_eJApzgj2c/maxresdefault.jpg" },
+        { name: "Ms Sravya Manasa", title: "Kuchupudi Artist", talk: "Life: An Artistic Expression", image: "https://i.ytimg.com/vi/G1L6DXsjsMU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAK0vQpHHmLaxa64KwDjy9FoHLWJg" },
+        { name: "Mr Harish Uthaman", title: "Actor", talk: "Acting Across Language Barriers", image: "https://i.ytimg.com/vi/JmGnlBJ6gF8/maxresdefault.jpg" },
+        { name: "Ms Noorul Zain Durrani", title: "Telangana Youth Delegate", talk: "Youth Leadership & Policy Advocacy", image: "https://i.ytimg.com/vi/NmzKkrGrcEM/maxresdefault.jpg" },
+        { name: "Mr Jatin Wahane", title: "Scientific Secretary of Indian's First Complete Reusable Launch Vehicle Mission", talk: "Flying Young and Rocket High", image: "https://i.ytimg.com/vi/tasiJI5ISwo/maxresdefault.jpg" },
+        { name: "Mr Srinath Maganti", title: "Actor, Enterpreneur", talk: "My Journey in the Showbiz", image: "https://i.ytimg.com/vi/HHfm-er6B9Y/maxresdefault.jpg" }
+      ],
+      schedule: [
+        { time: "09:20 AM", session: "Audience Arrival, Registration, and Welcome", activity: "Opening Ceremony" },
+        { time: "09:40 AM", session: "Inaugral", activity: "Inaugural Classical Dance by Nritya Tarang" },
+        { time: "09:45 AM", session: "Talk 01", activity: "Leadership & Women" },
+        { time: "10:10 AM", session: "Talk 02", activity: "The Power of Voice" },
+        { time: "10:35 AM", session: "Talk 03", activity: "Embracing Technological Change for Tomorrow's Triumph" },
+        { time: "11:00 AM", session: "Performance", activity: "Magic Show by Mr Maruthi Joshi" },
+        { time: "11:20 AM", session: "Talk 04", activity: "Starting up with Sustainable Innovation" },
+        { time: "11:45 AM", session: "Talk 05", activity: "Finding My Calling in My Voice" },
+        { time: "12:00 AM", session: "Talk 06", activity: "Entrepreneurship: A 'Sweet' Journey" },
+        { time: "12:25 PM", session: "Lunch", activity: "Networking Lunch" },
+        { time: "01:15 PM", session: "Performance", activity: "Music Performance by Crescendo" },
+        { time: "01:35 PM", session: "Talk 07", activity: "Whenever You're, Make the Best of It!" },
+        { time: "02:00 PM", session: "Talk 08", activity: "Life: An Artistic Expression" },
+        { time: "02:25 PM", session: "Performance", activity: "Mimicry Performance by Mimicry Srinivas" },
+        { time: "02:50 PM", session: "Talk 9", activity: "Acting Across Language Barriers" },
+        { time: "03:15 PM", session: "Talk 10", activity: "Youth Leadership & Policy Advocacy" },
+        { time: "03:40 PM", session: "Performance", activity: "Watch out for a Suprise" },
+        { time: "03:55 PM", session: "Talk 11", activity: "Flying Young and Rocket High" },
+        { time: "04:20 PM", session: "Talk 12", activity: "My Journey in the Showbiz" },
+        { time: "04:45 PM", session: "Closing", activity: "End Salutations and Vote of Thanks" }
+      ],
     },
     {
-      year: 2023,
-      theme: "Catalyst",
-      description: "Identifying the small changes that spark massive transformations across society.",
-      highlights: ["First Hybrid TEDx", "Innovative Stage Design", "Sold Out in 2 Hours"],
-      image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=800"
+      year: "02 May 2023",
+      slug: "2023",
+      theme: "Butterfly Effect",
+      description: "The butterfly effect is the idea that small, seemingly trivial events may ultimately result in something with much larger consequences, just like a typhoon occurs when a butterfly flaps its wings",
+      highlights: ["Immersive Experience", "Innovative Stage Design", "Interactive Speakers"],
+      image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=800",
+      speakers: [
+        { name: "Mr Rishab Singh", title: "Branding Expert", talk: "The Art of Branding", image: "https://commomfolkstories.wordpress.com/wp-content/uploads/2020/09/27246589-02a2-4312-ad7d-9f4a77b4843c.jpg?w=833" },
+        { name: "Mr Sunil Mundra", title: "Org. change and Transformation Leader", talk: "Leading Change", image: "https://i.ytimg.com/vi/qDEj3UKKwWw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAyhKyWdyLBsOk7_G0CirE0psLBiw" },
+        { name: "Mr Surya Prakash Gajjala", title: "CEO Archimmedes Green", talk: "Sustainable Innovation", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9pnds-fmrPze866Bg1iPexHdww2YC4CyGjw&s" },
+        { name: "Mr Raghu Karumanchi", title: "Actor", talk: "The Journey of Expression", image: "https://i.ytimg.com/vi/I9I8vicSzJk/maxresdefault.jpg" },
+        { name: "Ms Aditi Sharma", title: "Miss Universe 2022", talk: "Breaking Barriers", image: "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/fe1fbc14-2aba-4b3d-af20-3a6ebeedac8c/maxresdefault.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640" },
+        { name: "Mr Amir Nair", title: "Coach, Trainee, Author", talk: "Transformation Through Mindset", image: "https://media.licdn.com/dms/image/v2/D5603AQFWFdz6BgRoCA/profile-displayphoto-scale_200_200/B56Zv_mEvDKwAY-/0/1769519730235?e=2147483647&v=beta&t=cq6pf8iRifOld4Xcl6SR0XWHspSIpchdHX1svMA2IbA" },
+        { name: "Ms Anveshi Jain", title: "Actress", talk: "The Power of Self-belief", image: "https://i.ytimg.com/vi/bFbX3eJbbcM/maxresdefault.jpg" }
+      ],
+      schedule: [
+        { time: "09:00 AM", session: "Registration & Welcome", activity: "Check-in & Networking" },
+        { time: "10:00 AM", session: "Opening Ceremony", activity: "Welcome Address & Cultural Performance" },
+        { time: "10:30 AM", session: "Session 1", activity: "Keynote Talks" },
+        { time: "12:30 PM", session: "Lunch Break", activity: "Networking & Experience Zone" },
+        { time: "02:00 PM", session: "Session 2", activity: "Talks & Panel Discussion" },
+        { time: "04:30 PM", session: "Closing Ceremony", activity: "Closing Address & Group Photo" },
+      ],
     },
-    {
-      year: 2022,
-      theme: "Resonance",
-      description: "Exploring how individual voices can create ripples that change the world.",
-      highlights: ["Community Driven", "Local Heroes", "Sustainable Design"],
-      image: "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=800"
-    }
+
   ],
   schedule: [
     { time: "09:00 AM", session: "The Awakening", activity: "Opening Performance & Introduction" },
@@ -79,13 +165,13 @@ export const siteData = {
     { name: "TechNova", logo: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" },
     { name: "EcoStream", logo: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" },
     { name: "FutureLabs", logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" },
-    { name: "BioGen", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b1/Tesla_Motors.svg" },
+    { name: "BioGen", logo: "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Biogen.svg/500px-Biogen.svg.png" },
     { name: "Lumina", logo: "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" }
   ],
   team: [
-    { name: "Siddharth Rao", role: "Lead Organizer", image: "https://i.pravatar.cc/150?u=sid" },
-    { name: "Ananya Kapoor", role: "Curation Head", image: "https://i.pravatar.cc/150?u=ananya" },
-    { name: "Varun Reddy", role: "Design Lead", image: "https://i.pravatar.cc/150?u=varun" },
-    { name: "Maya Singh", role: "Tech & Innovation", image: "https://i.pravatar.cc/150?u=maya" }
+    { name: "D Chandu V", role: "Organizer", image: "/chandu.jpg", social: { instagram: "https://www.instagram.com/cinematichandu?igsh=bWFlejc5d2lybjcx", linkedin: "https://linkedin.com" } },
+    { name: "Satvik Boppudi", role: "Organizer", image: "https://media.licdn.com/dms/image/v2/D5603AQE8hSxYuH3vaA/profile-displayphoto-crop_800_800/B56ZxYQ3DbLIAI-/0/1771007342102?e=1773878400&v=beta&t=AP6vNYb-OCIXT4Swzu_kfVfgE1EfyrAjG5Dk5I1pL_Y", social: { instagram: "https://instagram.com", linkedin: "https://www.linkedin.com/in/satvik-boppudi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" } },
+    { name: "Parthiva Uppuluri", role: "Organizer", image: "https://media.licdn.com/dms/image/v2/D4E03AQGJWpuSUKBvnw/profile-displayphoto-crop_800_800/B4EZp4_.bGIoAI-/0/1762966629569?e=1773878400&v=beta&t=eucc4CpiqsNB-XA3x4-6mE0lnMKZ7Mr5ml-c8gt_J7w", social: { instagram: "https://instagram.com", linkedin: "https://www.linkedin.com/in/parthiva-uppuluri-249540343?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" } },
+    //{ name: "Maya Singh", role: "Tech & Innovation", image: "https://i.pravatar.cc/150?u=maya" }
   ]
 };

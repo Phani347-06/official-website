@@ -3,7 +3,7 @@
 import React, { useRef, useState } from "react";
 import { motion, useInView, AnimatePresence } from "framer-motion";
 import { siteData } from "@/data/site-data";
-import { Twitter, Linkedin, X, PlayCircle } from "lucide-react";
+import { Twitter, Linkedin, X } from "lucide-react";
 
 export const Speakers = () => {
   const [activeSpeaker, setActiveSpeaker] = useState<typeof siteData.speakers[0] | null>(null);
@@ -21,7 +21,7 @@ export const Speakers = () => {
         >
           <div>
             <h4 className="text-ted-red font-bold text-xs tracking-[0.5em] uppercase mb-4">Meet the Visionaries</h4>
-            <h2 className="text-5xl md:text-8xl font-black tracking-tighter uppercase leading-[0.85] text-white">
+            <h2 className="text-4xl sm:text-5xl md:text-8xl font-black tracking-tighter uppercase leading-[0.85] text-white">
               The <span className="text-white/20">Numina</span> <br /> Speakers
             </h2>
           </div>
@@ -71,7 +71,7 @@ export const Speakers = () => {
                 <p className="text-sm font-bold tracking-wider text-white/50 uppercase italic">
                   {speaker.title}
                 </p>
-                
+
               </div>
 
               {/* Spotlight Overlay */}
@@ -146,10 +146,7 @@ export const Speakers = () => {
                   <a href={activeSpeaker.social.linkedin} className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center hover:text-ted-red transition-colors border border-white/10">
                     <Linkedin size={20} />
                   </a>
-                  <button className="flex items-center space-x-3 px-6 py-3 bg-white/10 rounded-full border border-white/20 hover:bg-white hover:text-black transition-all group">
-                    <PlayCircle size={20} className="text-ted-red group-hover:text-black" />
-                    <span className="text-xs font-bold uppercase tracking-widest">Watch Preview</span>
-                  </button>
+
                 </div>
               </div>
             </motion.div>

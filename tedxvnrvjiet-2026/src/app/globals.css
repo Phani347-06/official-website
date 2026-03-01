@@ -70,6 +70,15 @@
   background: #E62B1E;
 }
 
+/* Hide scrollbar for draggable elements */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 /* Hide Next.js error overlay portal */
 nextjs-portal {
   display: none !important;
