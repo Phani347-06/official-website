@@ -3,10 +3,12 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import { RegisterModal } from "./register-modal";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isRegisterOpen, setIsRegisterOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -49,14 +51,14 @@ export const Navbar = () => {
               {link.name}
             </motion.a>
           ))}
-          <motion.a
-            href="#speakers"
+          <motion.button
+            onClick={() => setIsRegisterOpen(true)}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="px-6 py-2 bg-ted-red text-white text-sm font-bold rounded-full hover:bg-red-700 transition-colors shadow-[0_0_20px_rgba(230,43,30,0.4)] cursor-pointer"
           >
             REGISTER
-          </motion.a>
+          </motion.button>
         </div>
 
         {/* Mobile Toggle */}
@@ -85,17 +87,20 @@ export const Navbar = () => {
                   {link.name}
                 </a>
               ))}
-              <a
-                href="#speakers"
-                onClick={() => setIsOpen(false)}
-                className="w-full py-4 bg-ted-red text-white text-xl font-bold rounded-xl shadow-[0_0_30px_rgba(230,43,30,0.3)] text-center block"
+              <button
+                onClick={() => {
+                  setIsOpen(false);
+                  setIsRegisterOpen(true);
+                }}
+                className="w-full py-4 bg-ted-red text-white text-xl font-bold rounded-xl shadow-[0_0_30px_rgba(230,43,30,0.3)] text-center cursor-pointer"
               >
                 REGISTER NOW
-              </a>
+              </button>
             </div>
           </motion.div>
         )}
       </AnimatePresence>
+      <RegisterModal isOpen={isRegisterOpen} onClose={() => setIsRegisterOpen(false)} />
     </nav>
   );
 };

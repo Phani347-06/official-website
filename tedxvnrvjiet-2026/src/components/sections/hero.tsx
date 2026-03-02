@@ -1,10 +1,12 @@
 "use client";
 
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { siteData } from "@/data/site-data";
+import { RegisterModal } from "@/components/ui/register-modal";
 
 export const Hero = () => {
+  const [isRegisterOpen, setIsRegisterOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: containerRef,
@@ -89,15 +91,15 @@ export const Hero = () => {
           variants={textVariants}
           className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-8 items-center"
         >
-          <motion.a
-            href="#speakers"
+          <motion.button
+            onClick={() => setIsRegisterOpen(true)}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="px-10 py-4 bg-ted-red text-white text-lg font-bold rounded-xl shadow-[0_0_30px_rgba(230,43,30,0.4)] relative group overflow-hidden cursor-pointer"
           >
             <span className="relative z-10">GET TICKETS</span>
             <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity" />
-          </motion.a>
+          </motion.button>
 
           <div className="flex flex-col items-start sm:items-center">
             <span className="text-sm font-bold tracking-widest text-white/40 uppercase">March 12, 2026</span>
@@ -116,6 +118,7 @@ export const Hero = () => {
         <span className="text-[10px] tracking-[0.4em] uppercase text-white/40 rotate-90 mb-8 origin-left">Scroll to Explore</span>
         <div className="w-[1px] h-20 bg-gradient-to-b from-ted-red to-transparent" />
       </motion.div>
+      <RegisterModal isOpen={isRegisterOpen} onClose={() => setIsRegisterOpen(false)} />
     </section>
   );
 };
