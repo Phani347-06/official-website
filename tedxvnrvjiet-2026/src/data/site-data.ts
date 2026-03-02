@@ -12,10 +12,14 @@ export const siteData = {
   speakers: [
     {
       id: 1,
-      name: "E. Damodar, IPS",
-      title: "IG of Police, Andhra Pradesh",
-      talk: "The Hidden Fabric of Reality",
-      bio: "Legal consultant - Criminal Law, IPR, Data privacy &Fintech MHA-recognized Resource Person on New Criminal Laws speaker at NSG, CBI Academy, Nalsar, UoH, ASCI National Security Expert. Published in The Hindu and TOI",
+      name: "Revealing Soon",
+      //name: "E. Damodar, IPS",
+      title: "On the way",
+      //title: "IG of Police, Andhra Pradesh",
+      talk: "Coming Soon..",
+      //talk: "The Hidden Fabric of Reality",
+      bio: "Coming Soon..",
+      //bio: "Legal consultant - Criminal Law, IPR, Data privacy &Fintech MHA-recognized Resource Person on New Criminal Laws speaker at NSG, CBI Academy, Nalsar, UoH, ASCI National Security Expert. Published in The Hindu and TOI",
       image: "https://static.vecteezy.com/system/resources/previews/008/959/213/non_2x/red-neon-question-mark-on-a-black-background-vector.jpg",
       social: { twitter: "#", linkedin: "#" },
     },
