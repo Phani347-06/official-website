@@ -23,17 +23,17 @@ export default function Home() {
       <div className="relative z-10 flex flex-col w-full">
         <Hero />
         <Speakers />
-        <Schedule />
+        {/* <Schedule /> */}
         <Timeline />
         <Team />
-        <Sponsors />
+        {/* <Sponsors /> */}
         <Footer />
       </div>
 
       {/* Background elements to add texture */}
       <div className="fixed inset-0 pointer-events-none z-0 opacity-20">
-         <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(230,43,30,0.1),transparent_40%)]" />
-         <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_80%,rgba(74,4,4,0.15),transparent_40%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(230,43,30,0.1),transparent_40%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_80%,rgba(74,4,4,0.15),transparent_40%)]" />
       </div>
     </main>
   );
