@@ -88,7 +88,7 @@ export const Schedule = () => {
         </div>
       </div>
 
-      <div className="mt-32 container mx-auto px-6 text-center">
+      {/* <div className="mt-32 container mx-auto px-6 text-center">
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
@@ -96,7 +96,7 @@ export const Schedule = () => {
         >
           DOWNLOAD FULL BROCHURE
         </motion.button>
-      </div>
+      </div> */}
     </section>
   );
 };
