@@ -49,7 +49,7 @@ export const Footer = () => {
         </div>
 
         {/* Right Side: Newsletter */}
-        <div className="glass p-12 md:p-16 rounded-[3rem] border border-white/10 relative overflow-hidden group shadow-2xl bg-gradient-to-br from-white/10 to-transparent">
+        {/* <div className="glass p-12 md:p-16 rounded-[3rem] border border-white/10 relative overflow-hidden group shadow-2xl bg-gradient-to-br from-white/10 to-transparent">
           <div className="absolute top-0 right-0 p-12 text-ted-red/10 font-black text-9xl leading-none">JOIN</div>
           <div className="relative z-10 flex flex-col space-y-10">
             <h3 className="text-4xl md:text-5xl font-black text-white uppercase tracking-tighter leading-none">The Numina <br /><span className="text-ted-red">Pulse</span></h3>
@@ -68,7 +68,7 @@ export const Footer = () => {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="mt-32 pt-12 border-t border-white/5 container mx-auto px-6 flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0">
