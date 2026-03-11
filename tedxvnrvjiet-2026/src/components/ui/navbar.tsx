@@ -4,12 +4,12 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
-import { RegisterModal } from "./register-modal";
+
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isRegisterOpen, setIsRegisterOpen] = useState(false);
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -69,14 +69,16 @@ export const Navbar = () => {
             </motion.a>
           ))}
           <div className="relative group/navbtn">
-            <motion.button
-              onClick={() => setIsRegisterOpen(true)}
+            <motion.a
+              href="https://aspireup.ai/organization/tedxvnrvjiet/event/100061"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="px-6 py-2 bg-ted-red text-white text-sm font-bold rounded-full hover:bg-red-700 transition-colors shadow-[0_0_20px_rgba(230,43,30,0.4)] cursor-pointer"
             >
               REGISTER
-            </motion.button>
+            </motion.a>
             {/* Tooltip Content */}
             <div className="absolute top-full mt-6 right-0 w-[320px] md:w-[380px] bg-zinc-900/95 backdrop-blur-xl border border-white/10 rounded-2xl p-6 md:p-8 text-left opacity-0 -translate-y-4 pointer-events-none group-hover/navbtn:opacity-100 group-hover/navbtn:translate-y-0 transition-all duration-300 shadow-2xl">
               {/* Tooltip Arrow */}
@@ -141,20 +143,19 @@ export const Navbar = () => {
                   {link.name}
                 </a>
               ))}
-              <button
-                onClick={() => {
-                  setIsOpen(false);
-                  setIsRegisterOpen(true);
-                }}
-                className="w-full py-4 bg-ted-red text-white text-xl font-bold rounded-xl shadow-[0_0_30px_rgba(230,43,30,0.3)] text-center cursor-pointer"
+              <a
+                href="https://aspireup.ai/organization/tedxvnrvjiet/event/100061"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setIsOpen(false)}
+                className="w-full py-4 bg-ted-red text-white text-xl font-bold rounded-xl shadow-[0_0_30px_rgba(230,43,30,0.3)] block text-center cursor-pointer"
               >
                 REGISTER NOW
-              </button>
+              </a>
             </div>
           </motion.div>
         )}
       </AnimatePresence>
-      <RegisterModal isOpen={isRegisterOpen} onClose={() => setIsRegisterOpen(false)} />
     </nav>
   );
 };
