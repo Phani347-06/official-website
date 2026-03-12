@@ -3,7 +3,7 @@
 import React, { useRef, useState } from "react";
 import { motion, useInView, AnimatePresence } from "framer-motion";
 import { siteData } from "@/data/site-data";
-import { Twitter, Linkedin, X } from "lucide-react";
+import { Twitter, Linkedin, Instagram, X } from "lucide-react";
 
 export const Speakers = () => {
   const [activeSpeaker, setActiveSpeaker] = useState<typeof siteData.speakers[0] | null>(null);
@@ -135,13 +135,21 @@ export const Speakers = () => {
                 </div>
 
                 <div className="flex space-x-6 items-center">
-                  <a href={activeSpeaker.social.twitter} className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center hover:text-ted-red transition-colors border border-white/10">
-                    <Twitter size={20} />
-                  </a>
-                  <a href={activeSpeaker.social.linkedin} className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center hover:text-ted-red transition-colors border border-white/10">
-                    <Linkedin size={20} />
-                  </a>
-
+                  {activeSpeaker.social?.instagram && activeSpeaker.social.instagram !== "#" && (
+                    <a href={activeSpeaker.social.instagram} target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center hover:text-ted-red transition-colors border border-white/10">
+                      <Instagram size={20} />
+                    </a>
+                  )}
+                  {activeSpeaker.social?.twitter && activeSpeaker.social.twitter !== "#" && (
+                    <a href={activeSpeaker.social.twitter} target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center hover:text-ted-red transition-colors border border-white/10">
+                      <Twitter size={20} />
+                    </a>
+                  )}
+                  {activeSpeaker.social?.linkedin && activeSpeaker.social.linkedin !== "#" && (
+                    <a href={activeSpeaker.social.linkedin} target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center hover:text-ted-red transition-colors border border-white/10">
+                      <Linkedin size={20} />
+                    </a>
+                  )}
                 </div>
               </div>
             </motion.div>

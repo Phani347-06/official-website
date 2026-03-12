@@ -53,70 +53,71 @@ export default function ArchivePage() {
                 </div>
 
                 {/* Content */}
-                <div className="relative z-10 container mx-auto px-6 pb-20 pt-40">
-                    <motion.div
-                        initial={{ opacity: 0, y: 30 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8 }}
-                    >
-                        <Link
-                            href="/#timeline"
-                            className="inline-flex items-center space-x-3 text-white/50 hover:text-ted-red transition-colors mb-8 group"
+                <div className="relative z-10 container mx-auto px-6 pb-20 pt-40 w-full">
+                    <div className="flex flex-col-reverse md:flex-row md:justify-between md:items-end w-full gap-8">
+                        <motion.div
+                            initial={{ opacity: 0, y: 30 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8 }}
+                            className="flex-1"
                         >
-                            <ArrowLeft size={20} className="group-hover:-translate-x-1 transition-transform" />
-                            <span className="text-sm font-bold tracking-widest uppercase">Back to Home</span>
-                        </Link>
+                            <Link
+                                href="/#timeline"
+                                className="inline-flex items-center space-x-3 text-white/50 hover:text-ted-red transition-colors mb-8 group"
+                            >
+                                <ArrowLeft size={20} className="group-hover:-translate-x-1 transition-transform" />
+                                <span className="text-sm font-bold tracking-widest uppercase">Back to Home</span>
+                            </Link>
 
-                        <div className="flex items-center space-x-4 mb-6">
-                            <div className="w-2 h-2 rounded-full bg-ted-red animate-pulse" />
-                            <span className="text-xs font-black tracking-[0.4em] uppercase text-ted-red">
-                                TEDxVNRVJIET Archive
+                            <div className="flex items-center space-x-4 mb-6">
+                                <div className="w-2 h-2 rounded-full bg-ted-red animate-pulse" />
+                                <span className="text-xs font-black tracking-[0.4em] uppercase text-ted-red">
+                                    TEDxVNRVJIET Archive
+                                </span>
+                            </div>
+
+                            <h1 className="text-4xl sm:text-5xl md:text-8xl lg:text-9xl font-black text-white uppercase tracking-tighter leading-[0.85] mb-6">
+                                {event.theme}
+                            </h1>
+
+                            <p className="text-xl md:text-2xl text-white/50 font-medium max-w-2xl leading-relaxed mb-10">
+                                {event.description}
+                            </p>
+
+                            {/* Highlights */}
+                            <div className="flex flex-wrap gap-4">
+                                {event.highlights.map((highlight, idx) => (
+                                    <motion.div
+                                        key={idx}
+                                        initial={{ opacity: 0, y: 20 }}
+                                        animate={{ opacity: 1, y: 0 }}
+                                        transition={{ delay: 0.5 + idx * 0.1 }}
+                                        className="px-6 py-3 bg-white/5 backdrop-blur-md border border-white/10 rounded-full flex items-center space-x-3"
+                                    >
+                                        <div className="w-8 h-8 rounded-full bg-ted-red/20 flex items-center justify-center text-ted-red font-black text-xs">
+                                            0{idx + 1}
+                                        </div>
+                                        <span className="text-sm font-bold tracking-tight text-white/80">
+                                            {highlight}
+                                        </span>
+                                    </motion.div>
+                                ))}
+                            </div>
+                        </motion.div>
+
+                        {/* Year Badge */}
+                        <motion.div
+                            initial={{ opacity: 0, scale: 0.8 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            transition={{ delay: 0.3 }}
+                            className="glass p-6 rounded-3xl border border-white/10 text-center self-start shrink-0 min-w-[200px]"
+                        >
+                            <Calendar size={24} className="text-ted-red mx-auto mb-2" />
+                            <span className="text-sm md:text-lg font-black text-white uppercase tracking-tight">
+                                {event.year}
                             </span>
-                        </div>
-
-                        <h1 className="text-4xl sm:text-5xl md:text-8xl lg:text-9xl font-black text-white uppercase tracking-tighter leading-[0.85] mb-6">
-                            {event.theme}
-                        </h1>
-
-                        <p className="text-xl md:text-2xl text-white/50 font-medium max-w-2xl leading-relaxed mb-10">
-                            {event.description}
-                        </p>
-
-                        {/* Highlights */}
-                        <div className="flex flex-wrap gap-4">
-                            {event.highlights.map((highlight, idx) => (
-                                <motion.div
-                                    key={idx}
-                                    initial={{ opacity: 0, y: 20 }}
-                                    animate={{ opacity: 1, y: 0 }}
-                                    transition={{ delay: 0.5 + idx * 0.1 }}
-                                    className="px-6 py-3 bg-white/5 backdrop-blur-md border border-white/10 rounded-full flex items-center space-x-3"
-                                >
-                                    <div className="w-8 h-8 rounded-full bg-ted-red/20 flex items-center justify-center text-ted-red font-black text-xs">
-                                        0{idx + 1}
-                                    </div>
-                                    <span className="text-sm font-bold tracking-tight text-white/80">
-                                        {highlight}
-                                    </span>
-                                </motion.div>
-                            ))}
-                        </div>
-                    </motion.div>
-                </div>
-
-                {/* Year Badge */}
-                <div className="absolute top-24 md:top-32 right-4 md:right-16 z-10">
-                    <motion.div
-                        initial={{ opacity: 0, scale: 0.8 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        transition={{ delay: 0.3 }}
-                        className="glass p-6 rounded-3xl border border-white/10 text-center"
-                    >
-                        <Calendar size={24} className="text-ted-red mx-auto mb-2" />
-                        <span className="text-lg font-black text-white uppercase tracking-tight">
-                            {event.year}
-                        </span>
-                    </motion.div>
+                        </motion.div>
+                    </div>
                 </div>
             </section>
 
