@@ -72,7 +72,7 @@ export const siteData = {
       social: { instagram: "https://www.instagram.com/iam.shyamsankeerthgupta/", linkedin: "https://www.linkedin.com/in/shyam-sankeeth" },
     },
     {
-      id: 5,
+      id: 6,
       name: "Revealing Soon",
       //name: "Dr. A.V. Gurava Reddy",
       title: "On the way",
@@ -88,7 +88,7 @@ export const siteData = {
     },
 
     {
-      id: 6,
+      id: 7,
       name: "Revealing Soon",
       //name: "Samyuktha",
       title: "On the way",

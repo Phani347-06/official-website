@@ -129,19 +129,17 @@ export const Hero = () => {
           variants={textVariants}
           className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-8 items-center"
         >
-          <motion.a
-            href="https://aspireup.ai/organization/tedxvnrvjiet/event/100061"
-            target="_blank"
-            rel="noopener noreferrer"
+          <motion.button
+            onClick={() => window.dispatchEvent(new Event('open-pass-modal'))}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="px-10 py-4 bg-ted-red text-white text-lg font-bold rounded-xl shadow-[0_0_30px_rgba(230,43,30,0.4)] relative group overflow-hidden cursor-pointer"
+            className="px-10 py-4 bg-ted-red text-white text-lg font-bold rounded-xl shadow-[0_0_30px_rgba(230,43,30,0.4)] relative group overflow-hidden cursor-pointer w-full sm:w-auto"
           >
             <span className="relative z-10">GET TICKETS</span>
             <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity" />
-          </motion.a>
+          </motion.button>
 
-          <div className="flex flex-col items-start sm:items-center">
+          <div className="flex flex-col items-start md:items-center text-center md:text-left mt-6 md:mt-0">
             <span className="text-sm font-bold tracking-widest text-white/40 uppercase">March 23, 2026</span>
             <span className="text-xs tracking-widest text-ted-red font-bold">VNRVJIET KS Auditorium</span>
           </div>
