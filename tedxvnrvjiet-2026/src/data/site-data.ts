@@ -68,7 +68,7 @@ export const siteData = {
       title: "CEO & Co-Founder, ApplyWizz",
       talk: "Coming Soon..",
       bio: "Shyam Sankeerth is the Founder & CEO of ApplyWizz, a human + AI powered career acceleration platform. At 28, he built a company that created 100+ jobs, with over 80% women employees from a Tier-3 city in Telangana, proving that global innovation can grow from anywhere. He is also the first Telugu founder to audition for Shark Tank USA.",
-      image: "/DSC07988 (1).jpg.jpeg",
+      image: "/shyam.jpeg",
       social: { instagram: "https://www.instagram.com/iam.shyamsankeerthgupta/", linkedin: "https://www.linkedin.com/in/shyam-sankeeth" },
     },
     {
