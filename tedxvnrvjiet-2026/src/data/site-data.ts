@@ -55,6 +55,24 @@ export const siteData = {
     },
     {
       id: 4,
+      name: "E. Damodar, IPS",
+      title: "IG of Police, Andhra Pradesh",
+      talk: "Coming Soon..",
+      bio: "Legal consultant - Criminal Law, IPR, Data privacy &Fintech MHA-recognized Resource Person on New Criminal Laws speaker at NSG, CBI Academy, Nalsar, UoH, ASCI National Security Expert. Published in The Hindu and TOI",
+      image: "/1.jpeg",
+      social: { twitter: "#", linkedin: "https://www.linkedin.com/in/sriram-chemuturi/?originalSubdomain=in" },
+    },
+    {
+      id: 5,
+      name: "Shyam Sankeerth",
+      title: "CEO & Co-Founder, ApplyWizz",
+      talk: "Coming Soon..",
+      bio: "Shyam Sankeerth is the Founder & CEO of ApplyWizz, a human + AI powered career acceleration platform. At 28, he built a company that created 100+ jobs, with over 80% women employees from a Tier-3 city in Telangana, proving that global innovation can grow from anywhere. He is also the first Telugu founder to audition for Shark Tank USA.",
+      image: "/DSC07988 (1).jpg.jpeg",
+      social: { instagram: "https://www.instagram.com/iam.shyamsankeerthgupta/", linkedin: "https://www.linkedin.com/in/shyam-sankeeth" },
+    },
+    {
+      id: 6,
       name: "Revealing Soon",
       //name: "Dr. A.V. Gurava Reddy",
       title: "On the way",
@@ -70,7 +88,7 @@ export const siteData = {
     },
 
     {
-      id: 5,
+      id: 7,
       name: "Revealing Soon",
       //name: "Samyuktha",
       title: "On the way",

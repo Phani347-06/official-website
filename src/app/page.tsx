@@ -10,6 +10,7 @@ import { Schedule } from "@/components/sections/schedule";
 import { Timeline } from "@/components/sections/timeline";
 import { Team, Sponsors } from "@/components/sections/sponsors";
 import { Footer } from "@/components/sections/footer";
+import { PassModal } from "@/components/ui/pass-modal";
 
 export default function Home() {
   return (
@@ -35,6 +36,9 @@ export default function Home() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(230,43,30,0.1),transparent_40%)]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_80%,rgba(74,4,4,0.15),transparent_40%)]" />
       </div>
+
+      {/* Modals */}
+      <PassModal />
     </main>
   );
 }
