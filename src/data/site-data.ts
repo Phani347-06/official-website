@@ -60,7 +60,7 @@ export const siteData = {
       talk: "Coming Soon..",
       bio: "Legal consultant - Criminal Law, IPR, Data privacy &Fintech MHA-recognized Resource Person on New Criminal Laws speaker at NSG, CBI Academy, Nalsar, UoH, ASCI National Security Expert. Published in The Hindu and TOI",
       image: "/1.jpeg",
-      social: { twitter: "#", linkedin: "https://www.linkedin.com/in/sriram-chemuturi/?originalSubdomain=in" },
+      social: { twitter: "#", linkedin: "https://www.linkedin.com/in/e-damodar-ips-4aa35731/?originalSubdomain=in" },
     },
     {
       id: 5,
